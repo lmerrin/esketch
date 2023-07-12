@@ -1,0 +1,26 @@
+.board {
+    height: 960px;
+    width: 960px;
+    border: 1px solid black;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.row {
+    display:flex;
+    flex: 1;
+    justify-content: stretch;
+    align-items: stretch;
+    border: 1px soild salmon;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid skyblue;
+}
+
+.black {
+    background-color: black;
+}
